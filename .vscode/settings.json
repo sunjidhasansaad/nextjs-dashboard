@@ -1,0 +1,9 @@
+{
+  "editor.formatOnSave": true, // ファイル保存時の自動フォーマット有効
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // デフォルトフォーマッターをPrettierに指定
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "eslint.workingDirectories": [{ "pattern": "./app/*/" }],
+  "[prisma]": { "editor.defaultFormatter": "Prisma.prisma" }
+}
